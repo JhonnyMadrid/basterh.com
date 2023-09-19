@@ -1258,7 +1258,7 @@ img {
   margin-bottom: 0;
   text-transform: uppercase; }
   .single-accordion h6 a {
-    background-color: #f5f7fa;
+    background-color: #ffe13a;
     border-radius: 0;
     color: #141414;
     display: block;
@@ -1280,9 +1280,9 @@ img {
         filter: alpha(opacity=0); }
     .single-accordion h6 a.collapsed {
       background: #61ba6d;
-      background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-      background: linear-gradient(to right, #61ba6d, #83c331);
-      color: #ffffff; }
+      background: -webkit-linear-gradient(to right, #fddf32, #fefe01);
+      background: linear-gradient(to right, #fefe01, #fddf32);
+      color: #000000; }
       .single-accordion h6 a.collapsed span.accor-close {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
