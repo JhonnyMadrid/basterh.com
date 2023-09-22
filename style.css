@@ -85,8 +85,26 @@ img {
 
 
 
+/* VIDEO RESUMEN DE TODAS LAS AREAS */
+.contenedor {
+  max-width: 100%;
+  width: 100%;
+  padding: 40px;
+}
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción de aspecto 16:9 (9 / 16 * 100) */
+}
 
+.video-container video {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Relleno para cubrir todo el contenedor */
+}
 
 
 
