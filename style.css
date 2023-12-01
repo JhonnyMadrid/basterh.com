@@ -264,26 +264,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Spacing */
 .mt-15 {
   margin-top: 15px !important; }
@@ -420,8 +400,35 @@ body {
     /* Preloader */
 
 
+    .preloader {
+      width: 120px;
+      height: 22px;
+      border-radius: 40px;
+      color: #514b82;
+      border: 2px solid;
+      position: relative;
+      overflow: hidden;
+    }
+    .preloader::before {
+      content: "";
+      position: absolute;
+      margin: 2px;
+      width: 14px;
+      top: 0;
+      bottom: 0;
+      left: -20px;
+      border-radius: inherit;
+      background: currentColor;
+      box-shadow: -10px 0 12px 3px currentColor;
+      clip-path: polygon(0 5%, 100% 0,100% 100%,0 95%,-30px 50%);
+      animation: l14 1s infinite linear;
+    }
+    @keyframes l14 {
+      100% {left: calc(100% + 20px)}
+    }
 
- #preloader {
+
+ /* #preloader {
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #fefe01, #83c331);
   background: linear-gradient(to right, #fefe01, #fefe01);
@@ -453,7 +460,7 @@ body {
 @keyframes spin {
   100% { 
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } } */
+    transform: rotate(360deg); } } */ */
 
 
 
