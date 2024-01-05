@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/basterhc/public_html/
-    - /bin/cp -R basterh1 $DEPLOYPATH
+    - /bin/cp -R basterh.com $DEPLOYPATH
