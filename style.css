@@ -141,7 +141,7 @@ body {
 
 
 
-/*-----PUBLICIDAD AUDIOVISUAL-----*/
+/*-----AREA EXPLICATIVO DE CADA AREA-----*/
 
 
 
@@ -252,7 +252,64 @@ body {
 
 
 
+/* CODIGO PORTAFOLIO PRODUCCION AUDIOVISUAL  */
 
+
+
+
+.portfolioPA {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projectPA {
+  position: relative;
+  margin: 15px;
+  transition: transform 0.3s;
+}
+
+.projectPA img {
+  width: 600px;
+  height: 350px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projectPA video {
+  width: 600px;
+  height: 350px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.projectPA .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.projectPA:hover {
+  transform: scale(1.1);
+}
+
+.projectPA:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+
+/* ------  CODIGO PORTAFOLIO PRODUCCION AUDIOVISUAL END  ------ */
 
 
   /* Spacing */
@@ -390,7 +447,7 @@ body {
 
     /* Preloader */
 
-
+/* 
     .preloader {
       width: 120px;
       height: 22px;
@@ -416,10 +473,10 @@ body {
     }
     @keyframes l14 {
       100% {left: calc(100% + 20px)}
-    }
+    } */
 
 
- /* #preloader {
+  #preloader {
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #fefe01, #83c331);
   background: linear-gradient(to right, #fefe01, #fefe01);
@@ -451,7 +508,7 @@ body {
 @keyframes spin {
   100% { 
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } } */ */
+    transform: rotate(360deg); } } 
 
 
 

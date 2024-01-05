@@ -115,3 +115,14 @@
     }
 
 })(jQuery);
+
+
+
+/* BOTON DE WHATSAP DE LAS 4 AREAS*/
+
+
+
+document.getElementById('enlaceContainer').onclick = function() {
+    window.open('https://wa.me/+51980022499', '_blank');
+
+};
