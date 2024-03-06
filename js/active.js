@@ -123,6 +123,6 @@
 
 
 document.getElementById('enlaceContainer').onclick = function() {
-    window.open('https://wa.me/+51980022499', '_blank');
+    window.open('https://wa.me/+51949270599', '_blank');
 
 };
